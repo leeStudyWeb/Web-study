@@ -1,0 +1,49 @@
+.header {
+     height: 62;
+     background-color: #eff4fa;
+     overflow: hidden;
+     width: 100%;
+     margin: 0;
+ }
+
+ .header image {
+     width: 200px;
+     height: 56px;
+     margin-left: 20px;
+ }
+
+ .header nav a {
+     color: #1d5494;
+     text-decoration: none;
+ }
+
+ .header nav {
+     text-align: right;
+     color: #868686;
+ }
+
+ .body {
+     height: 590px;
+ }
+
+ .footer {
+     position: fixed;
+ }
+
+ body {
+     font-size: 12px;
+ }
+ .footer nav a {
+     color: #1d5494;
+     text-decoration: none;
+     text-align: center;
+ }
+ .footer nav{
+     color: #868686;
+ }
+ .footer a:hover{
+     text-decoration: underline;
+ }
+ .pic{
+      
+ }
