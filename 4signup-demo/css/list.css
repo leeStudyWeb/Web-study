@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.flex-center-x{
+  height: 500px;
+}
+.container{
+  display: flex;
+  width: 1000px;
+}
+.right{
+  width: 200px;
+  height: 40px;
+}
+.middle{
+  flex: 1;
+  height: 40px;
+}
+.left{
+  width: 200px;
+  height: 40px;
+}

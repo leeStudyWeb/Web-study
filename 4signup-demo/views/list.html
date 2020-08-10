@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>工作管理系统</title>
+  <link rel="stylesheet" href="../css/basic.css">
+  <link rel="stylesheet" href="../css/list.css">
+</head>
+
+<body>
+  <div id="root" class="flex-column">
+    <header class="flex-center">
+      <h2>工作管理系统</h2>
+    </header>
+    <main class="flex-center-x">
+        <ul>
+          <li class="container">
+            <span class="right">username</span>
+            <span class="middle">password</span>
+            <span class="left">delect</span>
+          </li>
+          {{each datas}}
+          <li class="container">
+            <span class="right">{{$value.username}}</span>
+            <span class="middle">{{$value.password}}</span>
+            <span class="left"></span>
+          </li>
+          {{/each}}
+        </ul>
+    </main>
+    <footer>
+      <p> 所有解释权归我所有</p>
+    </footer>
+  </div>
+</body>
+
+
+</html>

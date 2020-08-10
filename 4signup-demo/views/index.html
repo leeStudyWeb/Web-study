@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>工作管理系统</title>
+  <link rel="stylesheet" href="/css/basic.css">
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+  <div id="root" class="flex-column">
+    <header class="flex-center">
+      <h2>工作管理系统</h2>
+    </header>
+    <form class="flex-center" id="register" action="data" method="post">
+      <div class="form flex-column flex-center">
+        <div class="form-item-label flex-center">
+          <input type="text" placeholder="  Username" id="username" name="username">
+        </div>
+        <div class="form-item-label flex-center">
+          <input type="text" placeholder="  password" id="password" name="password">
+        </div>
+        <div class="form-item-label flex-start">
+          <input type="text" placeholder="  Code" id="code" name="code">
+          <div id="code-show" class="flex-center">1234</div>
+        </div>
+        <div class="form-item-label flex-center">
+          <button class="form-button" type="botton">Sign up</button>
+        </div>
+      </div>
+    </form>
+    <footer>
+      <p> 所有解释权归我所有</p>
+    </footer>
+  </div>
+</body>
+</html>
